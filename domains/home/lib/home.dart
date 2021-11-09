@@ -5,3 +5,4 @@ export 'src/ui/conversation_details_page.dart';
 
 export 'src/bloc/conversation/conversation_bloc.dart';
 
+export 'src/bloc/conversationDetail/conversation_detail_bloc.dart';

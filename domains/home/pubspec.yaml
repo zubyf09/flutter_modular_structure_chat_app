@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  values:
+    path: ../../libraries/values
   core:
     path: ../../libraries/core
   navigation:

@@ -26,7 +26,7 @@ class AppRouter extends _i2.RootStackRouter {
       final args = routeData.argsAs<ConversationDetailsRouteArgs>();
       return _i2.MaterialPageX<dynamic>(
           routeData: routeData,
-          child: _i1.ConversationDetailsPage(key: args.key, data: args.data));
+          child: _i1.ConversationDetailsPage(key: args.key, conversationInfo: args.data));
     }
   };
 

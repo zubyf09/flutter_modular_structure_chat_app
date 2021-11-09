@@ -28,6 +28,9 @@ class _IDTAppState extends State<IDTApp> {
         BlocProvider<ConversationBloc>(
           create: (BuildContext context) => ConversationBloc(),
         ),
+        BlocProvider<ConversationDetailBloc>(
+          create: (BuildContext context) => ConversationDetailBloc(),
+        ),
       ],
       child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
