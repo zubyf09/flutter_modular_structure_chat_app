@@ -40,17 +40,10 @@ dependency_overrides:
   http_parser: ^4.0.0
   share: ^0.6.5+4
   rxdart: ^0.27.1
-  permission_handler: ^7.2.0
-  logging: ^1.0.0
-  source_gen: ^0.8.2
   google_fonts: ^2.0.0
-  crypto: ^3.0.0
   json_serializable: any
   analyzer: any
   dio: ^4.0.0
-  pubspec_parse: ^1.0.0
-  json_annotation: ^4.1.0
-  yaml: ^3.0.0
 
 
 flutter:

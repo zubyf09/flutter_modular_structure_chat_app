@@ -1,6 +1,6 @@
 // import 'package:core/core.dart';
 // import 'package:network/network.dart';
-// import 'package:network/repositories/interface/search_repository.dart';
+// import 'package:network/repositories/interface/conversation_repository.dart';
 // import 'package:network/utils/api_constants.dart';
 // import '../network_provider.dart';
 //

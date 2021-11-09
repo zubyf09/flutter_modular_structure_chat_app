@@ -1,13 +1,11 @@
 library core;
 export 'utils/json_utils.dart';
-export 'sharedprefrences/prefrence_helper.dart';
-export 'model/requestModel/add_address_request.dart';
-export 'model/requestModel/search_product_request.dart';
-export 'model/responseModel/searches_response.dart';
-export 'model/search_product_args.dart';
+export 'model/responseModel/conversation_response.dart';
+export 'model/responseModel/conversation_detail_response.dart';
+export 'model/message_info.dart';
+export 'model/conversation_info.dart';
 export 'utils/ui_utils.dart';
 export 'utils/hex_color.dart';
 export 'utils/constants.dart';
 export 'helperFunction/helper_functions.dart';
-export 'model/user.dart';
 export 'package:flutter_bloc/flutter_bloc.dart';
