@@ -1,11 +1,8 @@
 import 'dart:async';
-import 'package:connectivity/connectivity.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
-import 'package:navigation/src/app_router.gr.dart';
+import 'package:navigation/navigation.dart';
 import 'observers/app_bloc_observer.dart';
 
 final router = AppRouter();
@@ -24,18 +21,11 @@ class _IDTAppState extends State<IDTApp> {
 
   @override
   Widget build(BuildContext buildContext) {
-    return MultiBlocProvider(
-      providers: [
-      //  BlocProvider<SearchBloc>(create: (context) => SearchBloc()),
-      ],
-      child: MaterialApp.router(
-        debugShowCheckedModeBanner: false,
-        routerDelegate: router.delegate(
-          navigatorObservers: () => [
-          ],
-        ),
-        routeInformationParser: router.defaultRouteParser(),
-      ),
+    return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
+      routeInformationProvider: router.routeInfoProvider(),
+      routeInformationParser: router.defaultRouteParser(),
+      routerDelegate: router.delegate(),
     );
   }
 
