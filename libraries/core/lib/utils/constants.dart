@@ -3,5 +3,7 @@ class Constants {
       "Please check your internet connection and try again.";
   static const String SERVER_DOWN_ERROR =
       "This feature is under maintenance, Sorry if you face any inconvenience.";
+  static const String GENERIC_ERROR =
+      "Something went wrong!";
 
 }

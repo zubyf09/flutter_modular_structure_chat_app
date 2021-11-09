@@ -1,18 +1,17 @@
-// part of 'conversation_bloc.dart';
-//
-// @immutable
-// abstract class SearchState {}
-//
-// class SearchInitial extends SearchState {}
-//
-// class SearchLoding extends SearchState{}
-//
-// class SearchLoaded extends SearchState{
-//   SearchResposne searchResponse;
-//   SearchLoaded({required this.searchResponse});
-// }
-// class SearchError extends SearchState{
-//   String message;
-//   int httpStatus;
-//   SearchError({required this.message,required this.httpStatus});
-// }
+part of 'conversation_bloc.dart';
+
+@immutable
+abstract class ConversationState {}
+
+class ConversationInitial extends ConversationState {}
+
+class ConversationLoading extends ConversationState{}
+
+class ConversationLoaded extends ConversationState{
+  final ConversationsResponse conversationResponse;
+  ConversationLoaded({required this.conversationResponse});
+}
+class ConversationError extends ConversationState{
+  final String message;
+  ConversationError({required this.message});
+}

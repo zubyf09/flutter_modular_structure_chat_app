@@ -8,12 +8,12 @@ import 'package:values/values.dart';
 import 'image_loading_shimmer.dart';
 
 class NetworkImageService extends StatelessWidget {
-  final String imageUrl;
-  final double imageWidth, imageHeight;
+  final String? imageUrl;
+  final double? imageWidth, imageHeight;
   final bool isBannerImage;
-  final Widget errorWidget;
-  final ColorFilter colorFilter;
-  final double radius;
+  final Widget? errorWidget;
+  final ColorFilter? colorFilter;
+  final double? radius;
   final bool isSuperMarket;
   BoxFit fit;
 
@@ -30,7 +30,7 @@ class NetworkImageService extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return !isNullOrEmpty(imageUrl)
+    return !isNullOrEmpty(imageUrl!)
         ? CachedNetworkImage(
       imageUrl: imageUrl,
       imageBuilder: (context, imageProvider) =>

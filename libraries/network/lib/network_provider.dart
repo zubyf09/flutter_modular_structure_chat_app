@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 class NetworkProvider {
   late String authorization;
 
-  static Dio instance({required String authorization, required String contentType}) {
+  static Dio instance() {
     final dio = Dio();
     dio.options.headers["language"] = "en";
     dio.interceptors.add(LogInterceptor(requestBody: true,responseBody: true));

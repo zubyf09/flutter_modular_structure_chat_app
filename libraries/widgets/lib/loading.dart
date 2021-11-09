@@ -4,11 +4,11 @@ import 'package:values/values.dart';
 
 class LoadingDots extends StatelessWidget {
   final double size;
-  final Color color;
+  final Color? color;
   final isCircularLoading;
 
   const LoadingDots(
-      {Key key, this.color, this.size = 30.0, this.isCircularLoading = false})
+      {Key? key, this.color, this.size = 30.0, this.isCircularLoading = false})
       : super(key: key);
 
   @override

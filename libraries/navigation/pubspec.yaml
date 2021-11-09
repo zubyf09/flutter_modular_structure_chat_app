@@ -30,4 +30,5 @@ dev_dependencies:
 dependency_overrides:
   timing: ^1.0.0
   json_annotation: ^4.0.0
+
 flutter:

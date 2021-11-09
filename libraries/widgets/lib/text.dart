@@ -3,18 +3,18 @@ import 'package:flutter/material.dart';
 
 
 class AppText extends StatelessWidget {
-  final String text;
-  final int maxLines;
+  final String? text;
+  final int? maxLines;
   final double minFontSize;
-  final TextStyle textStyle;
+  final TextStyle? textStyle;
   final TextAlign textAlign;
   final TextOverflow overflow;
-  final bool softWrap;
-  final Function onTap;
+  final bool? softWrap;
+  final Function? onTap;
   final bool inkWell;
 
   const AppText(
-      {Key key,
+      {Key? key,
       this.text,
       this.textStyle,
       this.maxLines,
