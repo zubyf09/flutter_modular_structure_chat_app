@@ -11,6 +11,9 @@ class ConversationDetailsPage extends StatefulWidget {
 class _ConversationDetailsPageState extends State<ConversationDetailsPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor:Colors.red,
+      body: Container()
+    );
   }
 }

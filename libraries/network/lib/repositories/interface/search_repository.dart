@@ -6,7 +6,7 @@
 //
 // @RestApi(baseUrl: "ApiConstant.searchBaseUrl")
 // abstract class SearchRepository {
-//   factory SearchRepository(Dio dio, {String? baseUrl}) =
+//   factory SearchRepository(Dio dio, {String baseUrl}) =
 //   _SearchRepository;
 //   @GET("/{method}/{album}/{api_key}/{format}")
 //   Future<Response> getSearchList(@Query("") String api_key,
