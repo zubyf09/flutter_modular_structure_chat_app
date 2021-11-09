@@ -17,6 +17,8 @@ dependencies:
     path: ../../libraries/navigation
   network:
     path: ../../libraries/network
+  widgets:
+    path: ../../libraries/widgets
 
 
 dependency_overrides:

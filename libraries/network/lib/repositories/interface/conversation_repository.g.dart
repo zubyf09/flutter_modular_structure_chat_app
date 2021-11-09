@@ -8,7 +8,7 @@ part of 'conversation_repository.dart';
 
 class _ConversationRepository implements ConversationRepository {
   _ConversationRepository(this._dio, {this.baseUrl}) {
-    baseUrl ??= 'https://idtm-media.s3.amazonaws.com/programming-test/api';
+    baseUrl ??= 'https://filebin.net/dmyfd8ud99h6z9wy';
   }
 
   final Dio _dio;
@@ -20,7 +20,7 @@ class _ConversationRepository implements ConversationRepository {
     const _extra = <String, dynamic>{};
     final queryParameters = <String, dynamic>{};
     final _data = <String, dynamic>{};
-    final _result = await _dio.fetch<Map<String, dynamic>>(
+    final _result = await _dio.fetch<List<dynamic>>(
         _setStreamType<ConversationsResponse>(
             Options(method: 'GET', headers: <String, dynamic>{}, extra: _extra)
                 .compose(_dio.options, '/inbox.json',
@@ -35,7 +35,7 @@ class _ConversationRepository implements ConversationRepository {
     const _extra = <String, dynamic>{};
     final queryParameters = <String, dynamic>{};
     final _data = <String, dynamic>{};
-    final _result = await _dio.fetch<Map<String, dynamic>>(
+    final _result = await _dio.fetch<List<dynamic>>(
         _setStreamType<ConversationDetailsResponse>(
             Options(method: 'GET', headers: <String, dynamic>{}, extra: _extra)
                 .compose(_dio.options, '/$id.json',

@@ -666,7 +666,7 @@ packages:
     source: hosted
     version: "2.2.0"
   widgets:
-    dependency: transitive
+    dependency: "direct main"
     description:
       path: "../../libraries/widgets"
       relative: true

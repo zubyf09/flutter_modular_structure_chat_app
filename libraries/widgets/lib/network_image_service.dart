@@ -2,10 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:core/core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:values/values.dart';
-
-import 'image_loading_shimmer.dart';
 
 class NetworkImageService extends StatelessWidget {
   final String? imageUrl;
@@ -59,7 +56,7 @@ class NetworkImageService extends StatelessWidget {
           ),
       alignment: Alignment.center,
       placeholder: (context, url) =>
-          ImageLoadingShimmer(
+          Container(
             height: imageHeight,
             width: imageWidth,
           ),
@@ -75,7 +72,6 @@ class NetworkImageService extends StatelessWidget {
     return Container(
       width: imageWidth,
       height: imageHeight,
-      child: SvgPicture.asset(Assets.errorImage),
     );
   }
 }

@@ -34,7 +34,7 @@ class AppText extends StatelessWidget {
         overflow: overflow,
         softWrap: softWrap ?? false,
         style: textStyle,
-        textAlign: this.textAlign ?? TextAlign.center,
+
       );
   }
 }

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:bloc/bloc.dart';
+import 'package:home/home.dart';
 import 'package:navigation/navigation.dart';
 import 'observers/app_bloc_observer.dart';
 
@@ -21,11 +22,19 @@ class _IDTAppState extends State<IDTApp> {
 
   @override
   Widget build(BuildContext buildContext) {
-    return MaterialApp.router(
-      debugShowCheckedModeBanner: false,
-      routeInformationProvider: router.routeInfoProvider(),
-      routeInformationParser: router.defaultRouteParser(),
-      routerDelegate: router.delegate(),
+    return MultiBlocProvider(
+      providers: [
+
+        BlocProvider<ConversationBloc>(
+          create: (BuildContext context) => ConversationBloc(),
+        ),
+      ],
+      child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
+        routeInformationProvider: router.routeInfoProvider(),
+        routeInformationParser: router.defaultRouteParser(),
+        routerDelegate: router.delegate(),
+      ),
     );
   }
 

@@ -16,6 +16,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   connectivity: ^3.0.2
 
+  home:
+    path: domains/home
   core:
     path: libraries/core
   navigation:

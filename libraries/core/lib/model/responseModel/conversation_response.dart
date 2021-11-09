@@ -10,9 +10,9 @@ class ConversationsResponse {
   List<ConversationInfo>? get conversations => _conversations;
   set conversations(List<ConversationInfo>? conversations) => _conversations = conversations;
 
-  ConversationsResponse.fromJson(Map<String, dynamic> json) {
-    _conversations = json.entries.first.value
-        .map((e) => ConversationInfo.fromJson(e as Map<String, dynamic>))
+  ConversationsResponse.fromJson(List<dynamic> json) {
+    _conversations = json
+        .map((e) => ConversationInfo.fromJson(e))
         .toList();
   }
 

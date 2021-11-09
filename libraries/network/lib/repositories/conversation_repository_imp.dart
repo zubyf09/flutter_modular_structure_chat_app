@@ -14,6 +14,7 @@ class ConversationRepositoryImp {
     try {
       return await conversationRepository.getConversations();
     } catch (e) {
+      print(e.toString());
       return null;
     }
   }
@@ -22,6 +23,7 @@ class ConversationRepositoryImp {
     try {
       return await conversationRepository.getConversationDetail(id);
     } catch (e) {
+      print(e.toString());
       return null;
     }
   }

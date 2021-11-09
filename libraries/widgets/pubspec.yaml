@@ -14,17 +14,9 @@ dependencies:
     sdk: flutter
   simple_html_css: ^3.0.1
   intl: ^0.17.0
-  auto_size_text: ^2.1.0
-  flutter_inappwebview: ^5.2.0
-  country_code_picker: ^1.6.0
-  flutter_svg: ^0.20.0-nullsafety.3
-  flutter_spinkit: ^4.1.2+1
+  flutter_spinkit: ^5.1.0
   cached_network_image: ^2.5.1
   dots_indicator: ^1.2.0
-  flutter_page_indicator: ^0.0.3
-  flutter_swiper: ^1.1.6
-  webview_flutter: ^2.0.2
-  shimmer: ^1.1.1
   values:
     path: ../../libraries/values
   core:
