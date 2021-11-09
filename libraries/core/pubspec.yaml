@@ -1,0 +1,42 @@
+name: core
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  package_info: ^2.0.0
+  shared_preferences: ^2.0.5
+  connectivity: ^3.0.2
+  country_code_picker: ^1.6.0
+  device_info: ^2.0.0
+  flutter_bloc: ^7.3.3
+  equatable: ^1.2.3
+  json_annotation: ^3.0.1
+  gson: ^0.1.4
+
+
+
+
+  network:
+    path: ../network
+  values:
+    path: ../values
+  widgets:
+    path: ../widgets
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:

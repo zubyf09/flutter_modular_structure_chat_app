@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74788386513",
+    "project_id": "mulitest-4b0da",
+    "storage_bucket": "mulitest-4b0da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74788386513:android:97af9e927306ba03db77f0",
+        "android_client_info": {
+          "package_name": "com.muli.mobile.muli_mobile_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74788386513-3sehdbh7q1a2b9q9qiaml1mm7fsuck9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5_3o3P0n1Lzjgx-j-Dxz7tKoPK4ciIbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74788386513-3sehdbh7q1a2b9q9qiaml1mm7fsuck9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

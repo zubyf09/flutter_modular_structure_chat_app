@@ -1,0 +1,96 @@
+part of values;
+
+class AppColors {
+  static final Color acctHeadingColor = Color(0xFF52489C);
+  static final Color dividerColor = Color(0XFFF3F3F3);
+  static final Color blueColor = Color(0xFF0087C1);
+  static final Color acctTextColor = Color(0xFF6F6E86);
+  static final Color acctBottomLable = Color(0xFF34D1BF);
+  static final Color acctDividerColor = Color(0xFFE7E7E7);
+  static const Color gray96 = Color(0xFF969393);
+
+  static final Color acctButtonColor = Color(0xFF34D1BF);
+  static final Color lightBlueColor = Color(0xFFDAE3EB);
+  static final Color white = Color(0xFFFFFFFF);
+  static final Color hintColorSearch = Color(0XFFF5F8FA);
+  static final Color dividerColorNew = Color(0xFFE2EBF4);
+  static final Color darkOrange = Color(0xFFFF6C6C);
+  static final Color borderColor = Color(0xFFFEEEEEE);
+  static final Color outlineBorderColor = Color(0xFFD2D2D2);
+  static final Color orange = Color(0xFFF95A37);
+  static final Color lightGray = Color(0XFFF5F8FA);
+  static const Color green = Color(0xFF00985C);
+  static const Color filterBox = Color(0xFFF5FBF9);
+  static final Color lightGreen = Color(0xFF21D95F);
+  static final Color buttonColorIcon = Color(0xFFEBF0EE);
+  static final Color pinkTxtColor = Color(0xFFFF6C6C);
+  static final Color removeButtonColor = Color(0xFFFFF2F2);
+  static final Color txtColorSuccess = Color(0xFFBBBBBB);
+  static final Color black = Color(0xFF000000);
+  static final Color addCardButtonColor = Color(0xFFF1F5F8);
+  static final Color blackTen = Color(0x10000000);
+  static const Color brownishGray = Color(0xFF3E3D3D);
+  static final Color brownishGrayNew = Color(0xFF747272);
+  static const Color transparent = Color(0x00000000);
+  static const Color lightGrey = Color(0xFFF7F7F7);
+  static const Color grey = Color(0xFF424242);
+  static const Color textGrey = Color(0xFFAAAAAA);
+  static const Color tabTxtColor = Color(0xFF8FB0A4);
+  static const Color unityGrey = Color(0xFFEBF0EE);
+  static const Color tabSelectedColor = Color(0xFFEBF3F0);
+  static const Color darkGrey = Color(0xFFAAAAAA);
+  static const Color pink = Color(0xFFFF5050);
+  static const Color pinkDime = Color(0xFFFFEBE4);
+  static const Color dowArrowColor = Color(0xFF2A644F);
+  static const Color storeOpenColor = Color(0xFF21D95F);
+  static const Color colorRed = Color(0xFFFF5050);
+  static const Color unitColor = Color(0xFFF95A37);
+  static const Color boarderColor = Color(0xFFE6EDF0);
+  static const Color storeIcons = Color(0xFF99ABBC);
+  static const Color openColor = Color(0xFFB5F1C4);
+  static const Color offWhite = Color(0xFFF5F8FA);
+  static const Color openTxtColor = Color(0xFF00985C);
+  static const Color red50 = Color(0xFFFF5050);
+  static const Color darkGreen = Color(0xFF2A644F);
+  static const Color grey44 = Color(0xFFA4A4A4);
+  static const Color subCatBorder = Color(0x40C4D9ED);
+  static const Color zinc = Color(0xFF0087C1);
+  static const Color darkBlue = Color(0xFF0087C1);
+  static const Color plus = Color(0xFFEBF0EE);
+  static const Color discountPrice = Color(0xFF99ABBC);
+  static const Color redItem = Color(0xFFFF6A3B);
+  static const Color blude60 = Color(0xFFC4D9ED);
+  static const Color cGray = Color(0xFFCCCCCC);
+  static const Color dimGreen = Color(0xFFEAFFF7);
+  static const Color hintTextColor = Color(0xFFABABAB);
+  static const Color tabUnSelectColor = Color(0xFFEAEAEA);
+  static const Color green20 = Color(0xFF20D95F);
+  static const Color sGrey = Color(0x33C4C4C4);
+  static const Color backColor = Color(0xFFE5E5E5);
+  static const Color disabledGreenColor = Color(0xFFCDEADE);
+  static const Color skyBlue = Color(0xFFF1F5F8);
+  static const Color addressBlue = Color(0xFF1C67FF);
+  static const Color payUsing = Color(0xFF747272);
+  static const Color lightBlue = Color(0xFFF5F7FA);
+  static const Color lightRed = Color(0xFFFAF5F5);
+
+  static const Color promoGreen = Color(0xFF00A664);
+  static const Color greyWhite = Color(0xFFF8F8F8);
+
+  static const Color disabledGrey = Color(0xFFDFDFDF);
+
+  static const Color navyBlueColor = Color(0xFF1C67FF);
+  static const Color lightenedGrey = Color(0xFFDADEE0);
+  static const Color requiredColor = Color(0xFFB8C5CC);
+  static const Color soilColor = Color(0xFFF1F5F8);
+  static const Color unselectedSoilColor = Color(0xFFE7E8EA);
+  static const Color grey56 = Color(0xFF565555);
+  static const Color creditsBorderColor = Color(0xFFADC1D2);
+  static const Color darkGreenColor = Color(0xFF004D2E);
+  static const Color darkGreyColor = Color(0xFF3D3D3D);
+  static const Color lightGreyColor = Color(0xFFB2B2B2);
+  static const Color creditColor = Color(0xFF28A428);
+  static const Color grey8D = Color(0xFF8D9BA5);
+  static const Color seeGreenColor = Color(0xFFE0EDEE);
+
+}
