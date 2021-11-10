@@ -4,8 +4,9 @@ class MessageInfo {
   String? _message;
   int? _modifiedAt;
   String? _sender;
+  bool isAutoMessage = false;
 
-  MessageInfo({String? id, String? message, int? modifiedAt, String? sender}) {
+  MessageInfo({String? id, String? message, int? modifiedAt, String? sender,this.isAutoMessage =false}) {
     this._id = id;
     this._message = message;
     this._modifiedAt = modifiedAt;
@@ -26,6 +27,9 @@ class MessageInfo {
     _message = json['message'];
     _modifiedAt = json['modified_at'];
     _sender = json['sender'];
+    isAutoMessage = false;
+
+
   }
 
   Map<String, dynamic> toJson() {

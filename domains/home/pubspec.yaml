@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  rxdart: ^0.27.2
+
   values:
     path: ../../libraries/values
   core:
@@ -22,9 +24,6 @@ dependencies:
   widgets:
     path: ../../libraries/widgets
 
-
-dependency_overrides:
-  json_annotation: ^4.3.0
 
 dev_dependencies:
   flutter_test:

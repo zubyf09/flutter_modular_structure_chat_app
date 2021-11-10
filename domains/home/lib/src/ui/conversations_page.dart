@@ -38,7 +38,8 @@ class _ConversationState extends State<ConversationsPage> {
           bloc: conversationBloc,
           builder: (context, state) {
             return (state is ConversationLoading)?const Center(child: LoadingDots(),):
-            (state is ConversationLoaded)?ConversationView(conversationsInfoList: state.conversationResponse.conversations)
+            (state is ConversationLoaded)?
+            ConversationView(conversationsInfoList: state.conversationResponse.conversations)
                 :(state is ConversationError)? Center(
               child: Text(CString.conversationEmpty),
             ):Container();
@@ -73,7 +74,6 @@ class ConversationView extends StatelessWidget {
   }
 
   movePage(BuildContext context,ConversationInfo conversationInfo){
-    AutoRouter.of(context).push(ConversationDetailsRoute(data: conversationInfo));
+    AutoRouter.of(context).push(ConversationDetailsRoute( conversationInfo: conversationInfo));
   }
 }
-

@@ -12,7 +12,6 @@ dependencies:
     sdk: flutter
 
   flutter_bloc: ^7.3.3
-  rxdart: ^0.25.0
   cupertino_icons: ^1.0.2
   connectivity: ^3.0.2
 

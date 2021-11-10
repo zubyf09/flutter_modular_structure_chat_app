@@ -3,19 +3,19 @@ import 'package:core/model/conversation_info.dart';
 import '../message_info.dart';
 
 class ConversationDetailsResponse {
-  List<MessageInfo>? _messages;
+  late List<MessageInfo> _messages;
 
-  ConversationDetailsResponse({List<MessageInfo>? conversations }) {
+  ConversationDetailsResponse({required List<MessageInfo> conversations }) {
     this._messages = conversations;
   }
 
-  List<MessageInfo>? get messages => _messages;
-  set messages(List<MessageInfo>? conversations) => _messages = conversations;
+  List<MessageInfo> get messages => _messages;
+  set messages(List<MessageInfo> conversations) => _messages = conversations;
 
   ConversationDetailsResponse.fromJson(List<dynamic> json) {
-    _messages = json
+    _messages = json!=null?json
         .map((e) => MessageInfo.fromJson(e as Map<String, dynamic>))
-        .toList();
+        .toList():[];
   }
 
   Map<String, dynamic> toJson() {
